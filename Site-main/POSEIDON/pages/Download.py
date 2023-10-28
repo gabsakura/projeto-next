@@ -1,4 +1,4 @@
-from reportlab.pdfgen import canvas
+import canvas from reportlab.pdfgen 
 from reportlab.lib.pagesizes import A4
 import requests
 import streamlit as sl
