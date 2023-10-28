@@ -99,4 +99,4 @@ with open(f"Relatorio_Poseid-ON.pdf", "rb") as pdf_file:
                           data=PDFbyte,
                           file_name=f'Relatorio_Poseid-ON.pdf',
                           mime='text/pdf',):
-      sl.text(f'Download feito em {dia} com sucesso!!')
+      sl.text(f'Download feito com sucesso!!')
