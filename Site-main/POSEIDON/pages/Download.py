@@ -1,13 +1,14 @@
 import reportlab
-from reportlab.pdfgen import canvas 
+from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 import requests
 import streamlit as sl
 from datetime import date
+
 dia = date.today()
 
 cnv = canvas.Canvas(f'Relatorio_Poseid-ON.pdf', pagesize=A4)
-cnv .setTitle(f'Relatorio {dia}')
+cnv .setTitle1(f'Relatorio {dia}')
 cnv.setLineWidth(1)
 cnv.drawCentredString(280, 800,f'Relatório Poseid-ON')
 z=0
